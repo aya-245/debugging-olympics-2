@@ -52,7 +52,7 @@ app.get('zaids', async (req,res)=>{
     res.render('all-zaids.ejs',{zaids: allZaids})
 })
 
-app.get('/zaids/new', (res, req)=>{
+app.get('/zaids/new', (req, res)=>{
     res.render('./views/create-zaid.ejs')
 })
 
