@@ -53,7 +53,7 @@ app.get('zaids', async (req,res)=>{
 })
 
 app.get('/zaids/new', (req, res)=>{
-    res.render('./views/create-zaid.ejs')
+    res.render('create-zaid.ejs')
 })
 
 app.post('/zaids', async (req,res)=>{

@@ -82,7 +82,7 @@ app.get('zaids', function _callee(req, res) {
   });
 });
 app.get('/zaids/new', function (req, res) {
-  res.render('./views/create-zaid.ejs');
+  res.render('create-zaid.ejs');
 });
 app.post('/zaids', function _callee2(req, res) {
   var createdZaid;
