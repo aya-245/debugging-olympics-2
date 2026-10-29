@@ -120,7 +120,7 @@ app.get('/zaids/:zaidId', function _callee3(req, res) {
       switch (_context4.prev = _context4.next) {
         case 0:
           _context4.next = 2;
-          return regeneratorRuntime.awrap(Zaid.findById(req.params));
+          return regeneratorRuntime.awrap(Zaid.findById(req.params.zaidId));
 
         case 2:
           foundZaid = _context4.sent;
