@@ -97,7 +97,7 @@ app.post('/zaids', function _callee2(req, res) {
 
         case 4:
           createdZaid = _context3.sent;
-          res.redirect('/all-zaids.ejs');
+          res.redirect('/zaids');
           _context3.next = 11;
           break;
 
