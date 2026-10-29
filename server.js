@@ -42,7 +42,7 @@ app.use(morgan('dev'))
 // Routes go here
 
 app.get('/',(req,res)=>{
-    res.render('homepage')
+    res.render('homepage.ejs')
 })
 
 

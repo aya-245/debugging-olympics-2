@@ -57,7 +57,7 @@ app.use(methodOverride('_method'));
 app.use(morgan('dev')); // Routes go here
 
 app.get('/', function (req, res) {
-  res.render('homepage');
+  res.render('homepage.ejs');
 });
 app.get('zaids', function _callee(req, res) {
   var allZaids;
