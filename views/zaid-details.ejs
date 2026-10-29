@@ -13,7 +13,7 @@
 
     <p>Name: <%= zaid.name%> </p>
 
-    <img class="zaid-image" src="<% zaid.zaidImage %>" alt="<% zaid.name %>">
+    <img class="zaid-image" src="<%= zaid.zaidImage %>" alt="<%= zaid.name %>">
    
 
     <form action="/zaids/<%= zaid._id %>?_method=DELETE" method="post">
