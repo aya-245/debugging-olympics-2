@@ -59,7 +59,7 @@ app.use(morgan('dev')); // Routes go here
 app.get('/', function (req, res) {
   res.render('homepage.ejs');
 });
-app.get('zaids', function _callee(req, res) {
+app.get('/zaids', function _callee(req, res) {
   var allZaids;
   return regeneratorRuntime.async(function _callee$(_context2) {
     while (1) {
