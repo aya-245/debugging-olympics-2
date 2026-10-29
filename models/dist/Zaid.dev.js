@@ -16,4 +16,4 @@ var zaidSchema = new mongoose.Schema({
 }); // model
 
 var Zaid = mongoose.model('Zaid', zaidSchema);
-module["export"] = Zaid;
+module.exports = Zaid;

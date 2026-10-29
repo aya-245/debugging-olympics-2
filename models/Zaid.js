@@ -18,4 +18,4 @@ const zaidSchema = new mongoose.Schema({
 // model
 const Zaid = mongoose.model('Zaid',zaidSchema)
 
-module.export = Zaid
+module.exports = Zaid
